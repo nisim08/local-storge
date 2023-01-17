@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+
+#div {
+    background-color: yellow;
+    width: 350px;
+    height: 600px;
+    max-width: 90%;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+#newuser{
+    background-color: black;
+    margin-left: 20%;
+    margin-top: 20%;
+    transition-duration: 0.5s;
+    color: white;
+    width: 170px;
+    max-width: 90%;
+}
+
+
+#newpass {
+    background-color: black;
+    margin-left: 20%;
+    margin-top: 20%;
+    color: black;
+    transition-duration: 0.5s;
+    width: 170px;
+    max-width: 90%;
+}
+
+
+#btn {
+    background-color: black;
+    margin-left: 35%;
+    margin-top: 10%;
+    color: white;
+    transition-duration: 0.5s;
+    width: 80px;
+    max-width: 80%;
+}
+
+
+
+#btn:hover {
+    background-color: gold;
+    color: black;
+}
+
+
+#newuser:hover {
+    background-color: white;
+    color: black;
+}
+
+#newpass:hover {
+    background-color: white;
+    color: black;
+}
+
+@keyframes fade{
+from {transform: translateY(-100px);}
+to{transform: translateY(0px);}
+}
+
+
+ 
