@@ -13,7 +13,8 @@ let user = localStorage.getItem("username");
 let pass = localStorage.getItem("password");
 
 if (user == username && pass == password) {
-    alert("good job")
+    window.location = 'atm.html';
+
 }
 else {
     n = n + 1;
